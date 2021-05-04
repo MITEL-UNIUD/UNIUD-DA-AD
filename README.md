@@ -1,5 +1,5 @@
 # UNIUD-DA-AD
-UNIUD Daily Activities Accelerometer Dataset
+## UNIUD Daily Activities Accelerometer Dataset
 
 The present dataset has been developed to experiment with techniques for recognizing activities of daily living (ADL) with different intensity, using a smartphone with an app for recording accelerometer data.
 10 subjects repeated a series of activities for 3 times, each time with the smartphone in a different position (arm, pocket, wrist). 
