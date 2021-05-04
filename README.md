@@ -13,7 +13,7 @@ Data are provided in three CSV files, named after the smartphone position, with 
 with the following meaning:
 - `subject`: 1...10. Age and sex are provided in a separate file;
 - `position`: arm/pocket/wrist;
-- `activity`: climbing_stairs/ computer/ down_stairs/ ironing/ sitting/ sweeping/ walking/ walking_box. In addition, a "removed" label indicates segments that, being of transition, did not represent specifically one activity. The tail of the samples for each user, a total of few seconds after the activities does not present a label.
+- `activity`: climbing_stairs/ computer/ down_stairs/ ironing/ sitting/ sweeping/ walking/ walking_box. In addition, a "removed" label indicates segments that, being of transition, did not represent specifically one activity. The tail of the samples for each user, a total of few seconds after the activities, is not labeled. Finally, in the "sitting" activity, not always the subjects were motionless.
 - `segment`: in the original work we segmented data in 5 seconds segments, on which we calculated features. These are identified also in data, for the sake of completeness.
 - `sample`: this is just a numerical id, relative to subject and position.
 - `ms`: time of acquisition, in milliseconds, from the beginning of a recording session (thus relative to subject and position);
